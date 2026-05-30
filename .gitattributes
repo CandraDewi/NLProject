@@ -1,0 +1,7 @@
+*.jpg filter=xet diff=xet merge=xet -text
+*.jpeg filter=xet diff=xet merge=xet -text
+*.png filter=xet diff=xet merge=xet -text
+*.gif filter=xet diff=xet merge=xet -text
+*.mp4 filter=xet diff=xet merge=xet -text
+*.mp3 filter=xet diff=xet merge=xet -text
+*.sqlite3 filter=xet diff=xet merge=xet -text
