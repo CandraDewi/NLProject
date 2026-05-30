@@ -1,0 +1,457 @@
+{
+  "metadata": {
+    "nama_proyek": "Dataset Chatbot Wisata Taman Anggur K.D Garden",
+    "versi": "1.0",
+    "tanggal_dibuat": "2026-04-10",
+    "sumber_data": [
+      "dinporabudpar.banyumaskab.go.id",
+      "serayunews.com",
+      "jateng.idntimes.com",
+      "wisatakarangsalam.com",
+      "instagram.com/kebun_kdgarden",
+      "dolanbanyumas.banyumaskab.go.id"
+    ],
+    "deskripsi": "Dataset pasangan pertanyaan-jawaban (Q&A) untuk pelatihan chatbot layanan informasi Wisata Taman Anggur K.D Garden Karangsalam Baturraden Banyumas"
+  },
+
+  "profil_wisata": {
+    "nama": "Wisata Taman Anggur K.D Garden",
+    "nama_singkat": "KD Garden",
+    "jenis": "Agrowisata Edukasi",
+    "pemilik": "Aji Setia Hasan (Aji Setiasan)",
+    "luas_lahan": "2800 meter persegi",
+    "alamat": "Desa Karangsalam, Kecamatan Baturraden, Kabupaten Banyumas, Jawa Tengah",
+    "koordinat_google_maps": "https://maps.app.goo.gl/iHdwACbbVDPLaZcr7",
+    "kontak": {
+      "whatsapp": "+6288215085888",
+      "instagram": "@kebun_kdgarden"
+    },
+    "jam_operasional": {
+      "sumber_1": "07.00 - 15.00 WIB (setiap hari)",
+      "catatan": "Silakan konfirmasi jam terkini melalui WhatsApp atau Instagram resmi"
+    },
+    "harga_tiket": {
+      "anak_anak": "Rp 5.000",
+      "dewasa": "Rp 10.000"
+    },
+    "harga_produk": {
+      "buah_anggur_petik": "Rp 70.000 per kilogram",
+      "bibit_anggur_indukan": "Rp 50.000 - Rp 70.000",
+      "bibit_anggur_1_meter": "Rp 100.000"
+    },
+    "varietas_anggur_utama": "Ninel (asal Ukraina)",
+    "deskripsi_singkat": "Wisata agrowisata berbasis kebun anggur yang menawarkan pengalaman memetik buah anggur langsung dari pohonnya, berfoto, belajar budidaya anggur, dan membeli bibit anggur."
+  },
+
+  "dataset_qa": [
+
+    {
+      "kategori": "Informasi Umum",
+      "id": "Q001",
+      "pertanyaan": "Apa itu KD Garden?",
+      "jawaban": "KD Garden atau Wisata Taman Anggur K.D Garden adalah destinasi agrowisata edukasi yang terletak di Desa Karangsalam, Kecamatan Baturraden, Kabupaten Banyumas, Jawa Tengah. Tempat ini menawarkan pengalaman unik memetik buah anggur langsung dari pohonnya, berfoto di spot-spot estetik, serta belajar tentang cara budidaya anggur.",
+      "variasi_pertanyaan": [
+        "Ceritakan tentang KD Garden",
+        "KD Garden itu apa?",
+        "Apa yang ada di KD Garden?",
+        "Tolong jelaskan tentang Wisata Taman Anggur KD Garden"
+      ]
+    },
+    {
+      "kategori": "Informasi Umum",
+      "id": "Q002",
+      "pertanyaan": "Siapa pemilik KD Garden?",
+      "jawaban": "KD Garden dimiliki dan dikelola oleh Bapak Aji Setia Hasan (Aji Setiasan), seorang guru SMK swasta di Purwokerto. Beliau memulai kebun anggur ini dari hobi, kemudian menyewa lahan milik pemerintah desa seluas 2.800 meter persegi, dan kini mengembangkannya menjadi wisata edukasi yang diminati banyak pengunjung.",
+      "variasi_pertanyaan": [
+        "Siapa yang mengelola KD Garden?",
+        "Pemilik KD Garden siapa?",
+        "KD Garden punya siapa?"
+      ]
+    },
+    {
+      "kategori": "Informasi Umum",
+      "id": "Q003",
+      "pertanyaan": "Di mana lokasi KD Garden?",
+      "jawaban": "KD Garden berlokasi di Desa Karangsalam, Kecamatan Baturraden, Kabupaten Banyumas, Jawa Tengah. Lokasi ini berada di pinggirian Kota Purwokerto, di lereng selatan Gunung Slamet. Anda bisa menggunakan Google Maps dengan link: https://maps.app.goo.gl/iHdwACbbVDPLaZcr7",
+      "variasi_pertanyaan": [
+        "Alamat KD Garden di mana?",
+        "KD Garden ada di mana?",
+        "Lokasi Taman Anggur KD Garden",
+        "Bagaimana cara menuju KD Garden?"
+      ]
+    },
+    {
+      "kategori": "Jam Operasional",
+      "id": "Q004",
+      "pertanyaan": "Jam buka KD Garden?",
+      "jawaban": "KD Garden buka setiap hari. Berdasarkan informasi terakhir, jam operasional adalah pukul 07.00 hingga 15.00 WIB atau 08.00 hingga 21.00 WIB. Untuk informasi jam buka terkini, silakan hubungi kami melalui WhatsApp di nomor +6288215085888 atau Instagram @kebun_kdgarden.",
+      "variasi_pertanyaan": [
+        "KD Garden buka jam berapa?",
+        "Jam operasional KD Garden",
+        "KD Garden tutup jam berapa?",
+        "Apa KD Garden buka setiap hari?",
+        "Apakah KD Garden buka hari Minggu?"
+      ]
+    },
+    {
+      "kategori": "Harga Tiket",
+      "id": "Q005",
+      "pertanyaan": "Berapa harga tiket masuk KD Garden?",
+      "jawaban": "Harga tiket masuk KD Garden sangat terjangkau:\n- Anak-anak: Rp 5.000\n- Dewasa: Rp 10.000\n\nHarga ini sudah termasuk akses masuk ke area kebun anggur dan spot foto. Harga dapat berubah, untuk konfirmasi bisa menghubungi WhatsApp +6288215085888.",
+      "variasi_pertanyaan": [
+        "Tiket KD Garden berapa?",
+        "Harga masuk Taman Anggur KD Garden",
+        "Tiket wisata KD Garden berapa?",
+        "Berapa biaya masuk kebun anggur KD Garden?"
+      ]
+    },
+    {
+      "kategori": "Harga Produk",
+      "id": "Q006",
+      "pertanyaan": "Berapa harga buah anggur di KD Garden?",
+      "jawaban": "Buah anggur yang bisa Anda petik dan bawa pulang dijual seharga Rp 70.000 per kilogram. Anggur yang tersedia adalah varietas Ninel asal Ukraina yang terkenal dengan ukuran buah besar, berwarna ungu gelap, daging padat, dan rasa manis segar. Harga bisa konfirmasi di lokasi atau via WhatsApp +6288215085888.",
+      "variasi_pertanyaan": [
+        "Harga anggur KD Garden",
+        "Anggur di KD Garden dijual berapa?",
+        "Berapa harga petik anggur KD Garden?",
+        "Beli anggur di KD Garden berapa?"
+      ]
+    },
+    {
+      "kategori": "Harga Produk",
+      "id": "Q007",
+      "pertanyaan": "Apakah di KD Garden jual bibit anggur?",
+      "jawaban": "Ya! KD Garden juga menjual bibit anggur untuk ditanam di rumah. Harga bibit anggur:\n- Bibit anggur indukan: Rp 50.000 - Rp 70.000\n- Bibit anggur ukuran 1 meter: Rp 100.000\n\nVarietas yang tersedia terutama adalah anggur Ninel asal Ukraina. Untuk informasi ketersediaan bibit, hubungi WhatsApp +6288215085888.",
+      "variasi_pertanyaan": [
+        "Jual bibit anggur di KD Garden?",
+        "Beli bibit anggur KD Garden berapa?",
+        "Harga bibit anggur KD Garden",
+        "Apakah ada oleh-oleh bibit anggur di KD Garden?"
+      ]
+    },
+    {
+      "kategori": "Aktivitas",
+      "id": "Q008",
+      "pertanyaan": "Apa saja kegiatan yang bisa dilakukan di KD Garden?",
+      "jawaban": "Di KD Garden ada berbagai kegiatan seru yang bisa Anda lakukan:\n1. Petik Anggur - memetik buah anggur langsung dari pohonnya\n2. Cicip Anggur - mencicipi buah anggur segar di kebun\n3. Foto-foto - banyak spot estetik di tengah kebun anggur\n4. Edukasi Budidaya - belajar teknik penanaman, perawatan, dan panen anggur\n5. Beli Bibit - membeli bibit anggur untuk ditanam di rumah\n6. Wisata Alam - menikmati suasana kebun yang asri dan menenangkan",
+      "variasi_pertanyaan": [
+        "Ada apa saja di KD Garden?",
+        "Kegiatan apa yang ada di KD Garden?",
+        "Apa yang bisa dilakukan di kebun anggur KD Garden?",
+        "Aktivitas di KD Garden apa saja?"
+      ]
+    },
+    {
+      "kategori": "Aktivitas",
+      "id": "Q009",
+      "pertanyaan": "Apakah bisa petik anggur langsung di KD Garden?",
+      "jawaban": "Ya, petik anggur langsung di kebun adalah daya tarik utama KD Garden! Pengunjung bisa memetik buah anggur segar langsung dari pohonnya dan membawa pulang hasil petikannya. Buah anggur yang dipetik dijual Rp 70.000 per kilogram. Ketersediaan buah tergantung musim panen, jadi disarankan menghubungi terlebih dahulu via WhatsApp +6288215085888.",
+      "variasi_pertanyaan": [
+        "Boleh petik anggur sendiri di KD Garden?",
+        "Wisata petik anggur KD Garden",
+        "Bisa memetik anggur di KD Garden?",
+        "Apakah ada aktivitas petik buah di KD Garden?"
+      ]
+    },
+    {
+      "kategori": "Wisata Edukasi",
+      "id": "Q010",
+      "pertanyaan": "Apakah KD Garden cocok untuk wisata edukasi anak?",
+      "jawaban": "Ya, KD Garden sangat cocok untuk wisata edukasi anak! Di sini anak-anak bisa belajar langsung tentang:\n- Teknik penanaman anggur\n- Cara merawat tanaman anggur\n- Proses pemanenan anggur\n- Manfaat dan produk dari tanaman anggur\n\nKonsep wisata edukasi ini menjadikan KD Garden destinasi favorit untuk kunjungan sekolah, dari tingkat SD, SMP, SMA, hingga mahasiswa. Suasananya alam dan menyegarkan sangat cocok untuk semua usia.",
+      "variasi_pertanyaan": [
+        "KD Garden cocok buat anak-anak?",
+        "Apakah KD Garden ada program edukasi?",
+        "Wisata edukasi anggur KD Garden",
+        "KD Garden bisa untuk outing sekolah?",
+        "Apakah ada edukasi pertanian di KD Garden?"
+      ]
+    },
+    {
+      "kategori": "Fasilitas",
+      "id": "Q011",
+      "pertanyaan": "Apa saja fasilitas di KD Garden?",
+      "jawaban": "KD Garden menyediakan berbagai fasilitas untuk kenyamanan pengunjung, antara lain:\n- Area kebun anggur yang tertata rapi\n- Spot foto estetik di tengah kebun\n- Area edukasi budidaya anggur\n- Penjualan buah anggur segar\n- Penjualan bibit anggur\n\nUntuk informasi fasilitas terlengkap, hubungi WhatsApp +6288215085888 atau cek Instagram @kebun_kdgarden.",
+      "variasi_pertanyaan": [
+        "Fasilitas apa yang ada di KD Garden?",
+        "Ada toilet di KD Garden?",
+        "Ada parkir di KD Garden?",
+        "Apakah KD Garden ada area istirahat?"
+      ]
+    },
+    {
+      "kategori": "Produk Unggulan",
+      "id": "Q012",
+      "pertanyaan": "Jenis anggur apa yang ada di KD Garden?",
+      "jawaban": "Varietas anggur unggulan di KD Garden adalah Anggur Ninel, varietas premium asal Ukraina dengan keunggulan:\n- Buah berukuran besar, bentuk oval\n- Warna ungu gelap atau merah tua saat matang\n- Daging buah padat, manis dengan sedikit asam\n- Tandan besar berbentuk kerucut\n- Tahan terhadap penyakit jamur dan embun tepung\n- Cocok tumbuh di dataran tinggi seperti Baturraden yang sejuk",
+      "variasi_pertanyaan": [
+        "Anggur apa yang ditanam di KD Garden?",
+        "Varietas anggur KD Garden",
+        "Anggur Ninel itu apa?",
+        "Jenis anggur apa yang dijual di KD Garden?"
+      ]
+    },
+    {
+      "kategori": "Lokasi & Akses",
+      "id": "Q013",
+      "pertanyaan": "Bagaimana cara menuju KD Garden dari Purwokerto?",
+      "jawaban": "KD Garden berlokasi di Desa Karangsalam, Kecamatan Baturraden, sekitar 15 km dari pusat Kabupaten Banyumas (Purwokerto) dengan waktu tempuh sekitar 30 menit. Anda bisa menggunakan kendaraan pribadi (motor atau mobil). Gunakan Google Maps dan cari 'KD Garden Karangsalam' atau ikuti link: https://maps.app.goo.gl/FVKQ1AMExy2kYAzX9",
+      "variasi_pertanyaan": [
+        "Rute ke KD Garden dari Purwokerto",
+        "Dari Purwokerto ke KD Garden berapa jauh?",
+        "Naik apa ke KD Garden?",
+        "Jalan ke KD Garden gimana?",
+        "Arah menuju Taman Anggur KD Garden"
+      ]
+    },
+    {
+      "kategori": "Lokasi & Akses",
+      "id": "Q014",
+      "pertanyaan": "Apakah KD Garden mudah ditemukan?",
+      "jawaban": "KD Garden cukup mudah ditemukan. Lokasinya ada di Desa Karangsalam, Kecamatan Baturraden, Banyumas. Anda bisa menggunakan Google Maps dengan mencari 'KD Garden' atau 'Taman Anggur KD Garden'. Link Google Maps: https://maps.app.goo.gl/FVKQ1AMExy2kYAzX9. Meski berada di pinggiran kota, tempat ini cukup dikenal dan diminati pengunjung dari berbagai daerah.",
+      "variasi_pertanyaan": [
+        "Google Maps KD Garden",
+        "Lokasi KD Garden di Google Maps",
+        "Susah nggak nyari KD Garden?"
+      ]
+    },
+    {
+      "kategori": "Kontak",
+      "id": "Q015",
+      "pertanyaan": "Berapa nomor WhatsApp KD Garden?",
+      "jawaban": "Anda bisa menghubungi KD Garden melalui WhatsApp di nomor +6288215085888 atau langsung klik: https://wa.me/6288215085888. Silakan hubungi untuk reservasi, menanyakan ketersediaan anggur, jam buka terkini, atau informasi lainnya.",
+      "variasi_pertanyaan": [
+        "Nomor telepon KD Garden",
+        "Kontak KD Garden",
+        "Cara menghubungi KD Garden",
+        "WhatsApp Taman Anggur KD Garden"
+      ]
+    },
+    {
+      "kategori": "Kontak",
+      "id": "Q016",
+      "pertanyaan": "Apa akun Instagram KD Garden?",
+      "jawaban": "Akun Instagram resmi KD Garden adalah @kebun_kdgarden. Di sana Anda bisa melihat foto-foto terbaru kebun anggur, info jadwal panen, promosi, dan berbagai konten seputar KD Garden. Follow untuk update terkini!",
+      "variasi_pertanyaan": [
+        "Instagram KD Garden apa?",
+        "Media sosial KD Garden",
+        "Akun sosmed KD Garden",
+        "IG Taman Anggur KD Garden"
+      ]
+    },
+    {
+      "kategori": "Cocok Untuk",
+      "id": "Q017",
+      "pertanyaan": "Untuk siapa saja KD Garden cocok dikunjungi?",
+      "jawaban": "KD Garden cocok untuk berbagai kalangan:\n- Keluarga dengan anak-anak (wisata edukatif)\n- Siswa sekolah (outing/kunjungan edukasi pertanian)\n- Mahasiswa (studi lapangan agrowisata)\n- Pecinta alam dan pertanian\n- Wisatawan yang ingin pengalaman berbeda\n- Pasangan atau grup yang ingin foto estetik\n- Siapa saja yang ingin menikmati suasana kebun yang asri",
+      "variasi_pertanyaan": [
+        "KD Garden cocok untuk keluarga?",
+        "Apakah KD Garden cocok untuk rombongan?",
+        "KD Garden untuk siapa saja?",
+        "Apakah cocok bawa anak ke KD Garden?"
+      ]
+    },
+    {
+      "kategori": "Sejarah",
+      "id": "Q018",
+      "pertanyaan": "Bagaimana sejarah berdirinya KD Garden?",
+      "jawaban": "KD Garden berawal dari hobi berkebun Aji Setiasan, seorang guru SMK swasta di Purwokerto. Ia memberanikan diri menyewa lahan milik pemerintah desa di Karangsalam, Baturraden seharga Rp 5,5 juta per tahun. Kini kebun seluas 2.800 m² ini memiliki ratusan tanaman anggur yang berbuah dan telah dikembangkan menjadi wisata edukasi yang menarik pengunjung dari berbagai daerah. Omset dari kebun ini bisa mencapai sekitar Rp 3 juta per bulan.",
+      "variasi_pertanyaan": [
+        "Sejarah KD Garden",
+        "KD Garden berdiri sejak kapan?",
+        "Asal usul KD Garden",
+        "Kenapa namanya KD Garden?"
+      ]
+    },
+    {
+      "kategori": "Lingkungan",
+      "id": "Q019",
+      "pertanyaan": "Mengapa anggur bisa tumbuh di Baturraden?",
+      "jawaban": "Baturraden sangat cocok untuk budidaya anggur karena beberapa faktor:\n1. Hawa sejuk - Baturraden berada di dataran tinggi kaki Gunung Slamet\n2. Tanah subur - kualitas tanah optimal dengan pH yang baik\n3. Pemupukan mudah - kondisi tanah memudahkan penyerapan nutrisi\n4. Anggur Ninel yang ditanam mampu beradaptasi dengan iklim sejuk dan dingin\n\nVarietas Ninel dari Ukraina memang dikenal dapat tumbuh optimal di wilayah beriklim sejuk, sehingga cocok dengan kondisi alam Baturraden.",
+      "variasi_pertanyaan": [
+        "Kenapa anggur ditanam di Baturraden?",
+        "Iklim Baturraden cocok untuk anggur?",
+        "Apakah anggur bisa tumbuh di dataran tinggi?",
+        "Kenapa memilih Karangsalam untuk kebun anggur?"
+      ]
+    },
+    {
+      "kategori": "Tips Kunjungan",
+      "id": "Q020",
+      "pertanyaan": "Tips apa yang perlu diperhatikan sebelum berkunjung ke KD Garden?",
+      "jawaban": "Tips kunjungan ke KD Garden:\n1. Konfirmasi terlebih dahulu - hubungi WA +6288215085888 untuk memastikan anggur sedang berbuah/panen\n2. Datang pagi hari - suasana lebih segar dan nyaman\n3. Bawa uang tunai - untuk tiket masuk dan pembelian buah/bibit\n4. Gunakan alas kaki nyaman - untuk berjalan di sekitar kebun\n5. Bawa kantong atau wadah - untuk membawa pulang anggur\n6. Ikuti peraturan kebun - jaga kebersihan dan tanaman",
+      "variasi_pertanyaan": [
+        "Apa yang perlu disiapkan sebelum ke KD Garden?",
+        "Tips berkunjung ke KD Garden",
+        "Hal yang harus diperhatikan saat ke KD Garden",
+        "Perlu reservasi dulu ke KD Garden?"
+      ]
+    },
+    {
+      "kategori": "Musim Panen",
+      "id": "Q021",
+      "pertanyaan": "Kapan musim panen anggur di KD Garden?",
+      "jawaban": "Untuk mengetahui jadwal panen anggur terkini di KD Garden, sebaiknya hubungi langsung via WhatsApp +6288215085888 atau cek update di Instagram @kebun_kdgarden. Ketersediaan buah anggur untuk dipetik sangat bergantung pada musim panen. Berdasarkan berita, pada periode Natal-Tahun Baru 2026 kebun anggur sedang dalam masa panen dan ramai pengunjung.",
+      "variasi_pertanyaan": [
+        "Kapan anggur KD Garden berbuah?",
+        "Musim panen anggur di KD Garden kapan?",
+        "Apakah sekarang anggurnya sudah bisa dipetik?",
+        "KD Garden sedang berbuah atau tidak?"
+      ]
+    },
+    {
+      "kategori": "Wisata Sekitar",
+      "id": "Q022",
+      "pertanyaan": "Apa saja wisata lain yang dekat dengan KD Garden?",
+      "jawaban": "Di sekitar KD Garden (kawasan Karangsalam & Baturraden) terdapat banyak destinasi wisata lain:\n- Curug Telu - 3 air terjun unik di Karangsalam\n- CAUB (Camp Area Umbul Bengkok) - wisata kemah di ketinggian 600 mdpl\n- Bhumi Bambu Baturraden - hutan bambu dengan 50+ jenis bambu\n- Bukit Tengtung - camping dengan view Gunung Slamet\n- Lokawisata Baturraden - wisata taman dan wahana\n- Kebun Raya Baturraden - konservasi 3000+ spesies tanaman\n- Hutan Pinus Limpakuwus - wisata alam hits",
+      "variasi_pertanyaan": [
+        "Wisata apa yang dekat dengan KD Garden?",
+        "Destinasi lain di sekitar KD Garden",
+        "Setelah dari KD Garden mau ke mana?",
+        "Tempat wisata Baturraden selain KD Garden"
+      ]
+    },
+    {
+      "kategori": "Perjalanan",
+      "id": "Q023",
+      "pertanyaan": "Apakah ada angkutan umum menuju KD Garden?",
+      "jawaban": "KD Garden berlokasi di Desa Karangsalam, Baturraden, yang dapat ditempuh sekitar 30 menit dari pusat Purwokerto. Disarankan menggunakan kendaraan pribadi (motor atau mobil) untuk kemudahan akses. Untuk informasi akses transportasi umum atau ojek online, bisa dikonfirmasi via WhatsApp +6288215085888.",
+      "variasi_pertanyaan": [
+        "Naik angkot ke KD Garden bisa?",
+        "Transportasi menuju KD Garden",
+        "Dari terminal Purwokerto ke KD Garden naik apa?",
+        "Ada ojek online ke KD Garden?"
+      ]
+    },
+    {
+      "kategori": "Rombongan",
+      "id": "Q024",
+      "pertanyaan": "Apakah KD Garden bisa menerima kunjungan rombongan?",
+      "jawaban": "Ya, KD Garden menerima kunjungan rombongan seperti kunjungan sekolah, outbound, studi lapangan, dan wisata keluarga besar. Untuk kunjungan rombongan, sebaiknya hubungi terlebih dahulu via WhatsApp +6288215085888 untuk konfirmasi jadwal dan persiapan. KD Garden sangat mendukung wisata edukasi bagi pelajar dan mahasiswa.",
+      "variasi_pertanyaan": [
+        "KD Garden bisa untuk kunjungan sekolah?",
+        "Apakah ada paket rombongan di KD Garden?",
+        "KD Garden cocok untuk study tour?",
+        "Apakah ada harga khusus rombongan di KD Garden?"
+      ]
+    },
+    {
+      "kategori": "Informasi Umum",
+      "id": "Q025",
+      "pertanyaan": "Apa yang membuat KD Garden unik dibandingkan wisata lain?",
+      "jawaban": "Keunikan KD Garden dibanding wisata lain di Banyumas:\n1. Satu-satunya kebun anggur di kawasan Baturraden\n2. Pengalaman petik anggur langsung dari pohonnya\n3. Varietas anggur Ninel premium dari Ukraina\n4. Harga tiket sangat terjangkau (Rp 5.000 - Rp 10.000)\n5. Kombinasi wisata, edukasi, dan agrowisata dalam satu tempat\n6. Bisa membeli bibit untuk ditanam di rumah\n7. Suasana kebun yang asri, tersembunyi, dan menenangkan\n8. Cocok sebagai hidden gem destinasi wisata baru",
+      "variasi_pertanyaan": [
+        "Apa kelebihan KD Garden?",
+        "Keistimewaan KD Garden apa?",
+        "Kenapa harus ke KD Garden?",
+        "Apa daya tarik utama KD Garden?"
+      ]
+    },
+    {
+      "kategori": "Desa Karangsalam",
+      "id": "Q026",
+      "pertanyaan": "Di mana Desa Karangsalam?",
+      "jawaban": "Desa Karangsalam terletak di Kecamatan Baturraden, Kabupaten Banyumas, Jawa Tengah. Desa ini berada di lereng selatan Gunung Slamet pada ketinggian 480 MDPL, sekitar 15 km dari pusat kota Purwokerto dengan waktu tempuh ±30 menit. Desa ini merupakan desa paling utara di wilayah Kecamatan Baturraden dan berbatasan dengan hutan lindung Gunung Slamet di sebelah utara.",
+      "variasi_pertanyaan": [
+        "Karangsalam ada di mana?",
+        "Desa Karangsalam Baturraden itu di mana?",
+        "Berapa jauh Karangsalam dari Purwokerto?"
+      ]
+    },
+    {
+      "kategori": "Anggur Ninel",
+      "id": "Q027",
+      "pertanyaan": "Apa itu anggur Ninel?",
+      "jawaban": "Anggur Ninel adalah varietas anggur meja premium yang berasal dari Ukraina, Eropa Timur. Ciri-cirinya:\n- Buah besar, berbentuk oval\n- Warna ungu gelap atau merah tua saat matang\n- Daging padat, manis dengan sedikit asam\n- Tandan besar berbentuk kerucut, buah tersusun rapat\n- Tahan penyakit jamur dan embun tepung\n- Populer di kalangan petani milenial karena nilai jualnya tinggi\n\nDi KD Garden, anggur Ninel dijual Rp 70.000/kg untuk yang dipetik, dan bibitnya dijual Rp 100.000 untuk ukuran 1 meter.",
+      "variasi_pertanyaan": [
+        "Anggur Ninel itu enak?",
+        "Kelebihan anggur Ninel",
+        "Anggur Ninel Ukraina itu apa?",
+        "Bagaimana rasa anggur Ninel?"
+      ]
+    },
+    {
+      "kategori": "Harga",
+      "id": "Q028",
+      "pertanyaan": "Ringkasan harga di KD Garden",
+      "jawaban": "Berikut ringkasan harga di KD Garden:\n\n🎟️ TIKET MASUK:\n- Anak-anak: Rp 5.000\n- Dewasa: Rp 10.000\n\n🍇 PRODUK:\n- Buah anggur petik: Rp 70.000/kg\n- Bibit anggur indukan: Rp 50.000 - Rp 70.000\n- Bibit anggur 1 meter: Rp 100.000\n\nHarga dapat berubah. Konfirmasi terkini di WA: +6288215085888",
+      "variasi_pertanyaan": [
+        "Daftar harga KD Garden",
+        "Berapa total biaya ke KD Garden?",
+        "Budget ke KD Garden berapa?"
+      ]
+    }
+  ],
+
+  "dataset_tambahan_faq": [
+    {
+      "id": "FAQ001",
+      "pertanyaan": "Apakah perlu reservasi sebelum ke KD Garden?",
+      "jawaban": "Untuk kunjungan individu atau keluarga kecil biasanya tidak perlu reservasi. Namun untuk rombongan atau memastikan ketersediaan buah anggur, disarankan menghubungi terlebih dahulu via WhatsApp +6288215085888."
+    },
+    {
+      "id": "FAQ002",
+      "pertanyaan": "Apakah KD Garden cocok untuk liburan akhir pekan?",
+      "jawaban": "Ya, KD Garden sangat cocok untuk liburan akhir pekan bersama keluarga. Tiket masuknya terjangkau, suasana kebun yang asri, dan aktivitas petik anggur menjadi pengalaman yang tidak biasa. KD Garden buka setiap hari, termasuk akhir pekan."
+    },
+    {
+      "id": "FAQ003",
+      "pertanyaan": "Apa yang harus dibawa saat ke KD Garden?",
+      "jawaban": "Yang perlu dibawa saat ke KD Garden:\n- Uang tunai (untuk tiket dan pembelian anggur/bibit)\n- Kamera/HP untuk foto-foto\n- Kantong atau wadah untuk membawa pulang buah anggur\n- Alas kaki yang nyaman\n- Sunscreen atau topi jika sensitif matahari"
+    },
+    {
+      "id": "FAQ004",
+      "pertanyaan": "Seberapa besar lahan KD Garden?",
+      "jawaban": "Lahan KD Garden seluas 2.800 meter persegi. Di lahan tersebut terdapat ratusan tanaman anggur yang sudah berbuah, termasuk varietas Ninel asal Ukraina."
+    },
+    {
+      "id": "FAQ005",
+      "pertanyaan": "Apakah ada kuliner di sekitar KD Garden?",
+      "jawaban": "KD Garden berlokasi di kawasan Baturraden yang terkenal sebagai kawasan wisata lengkap. Di sekitar area Baturraden banyak tersedia warung makan dan kuliner khas seperti mendoan dan sate kelinci. Untuk pilihan kuliner langsung di KD Garden, hubungi +6288215085888 untuk informasi terkini."
+    },
+    {
+      "id": "FAQ006",
+      "pertanyaan": "Apakah mahasiswa bisa melakukan penelitian atau wawancara untuk tugas kuliah di KD Garden?",
+      "jawaban": "Tentu saja! Kami sangat terbuka bagi mahasiswa yang ingin melakukan penelitian, wawancara observasi, atau kemitraan untuk proyek perkuliahan di KD Garden. Namun, harap diperhatikan bahwa terdapat biaya fee sebesar Rp 50.000 untuk setiap kali sesi wawancara. Silakan hubungi admin melalui WhatsApp di +6288215085888 untuk membuat janji temu terlebih dahulu."
+    },
+    {
+      "id": "FAQ007",
+      "pertanyaan": "Berapa biaya fee untuk wawancara tugas kuliah atau penelitian mahasiswa?",
+      "jawaban": "Untuk mahasiswa yang ingin melakukan sesi wawancara keperluan tugas kuliah, observasi, atau penelitian di KD Garden, dikenakan biaya fee sebesar Rp 50.000 per sesi wawancara."
+    }
+  ],
+
+  "intents_chatbot": [
+    {
+      "intent": "salam",
+      "contoh_kalimat": ["Halo", "Hai", "Selamat pagi", "Hei KD Garden", "Permisi"],
+      "respons": "Halo! Selamat datang di layanan informasi Wisata Taman Anggur K.D Garden! 🍇 Ada yang bisa kami bantu? Anda bisa tanyakan tentang jam buka, harga tiket, aktivitas, lokasi, atau informasi lainnya."
+    },
+    {
+      "intent": "terima_kasih",
+      "contoh_kalimat": ["Terima kasih", "Makasih ya", "Thanks", "Oke, terima kasih infonya"],
+      "respons": "Sama-sama! Senang bisa membantu 😊 Jika ada pertanyaan lain seputar KD Garden, jangan ragu untuk bertanya. Sampai jumpa di KD Garden! 🍇"
+    },
+    {
+      "intent": "perpisahan",
+      "contoh_kalimat": ["Bye", "Sampai jumpa", "Dadah", "OK cukup", "Sudah, terima kasih"],
+      "respons": "Sampai jumpa! Kami tunggu kunjungan Anda di Wisata Taman Anggur K.D Garden, Karangsalam, Baturraden 🍇 Jangan lupa hubungi WA kami di +6288215085888 sebelum berkunjung!"
+    },
+    {
+      "intent": "tidak_mengerti",
+      "contoh_kalimat": ["???", "Hmm", "Saya tidak mengerti", "Apa maksudnya?"],
+      "respons": "Maaf, saya kurang memahami pertanyaan Anda. Anda bisa bertanya tentang: jam buka, harga tiket, lokasi, aktivitas, anggur, bibit, atau hal lainnya seputar KD Garden. Atau hubungi langsung via WA +6288215085888."
+    },
+    {
+      "intent": "info_penelitian_mahasiswa",
+      "contoh_kalimat": [
+        "Apakah bisa observasi untuk tugas kampus?",
+        "Saya mahasiswa ingin wawancara pemilik kebun",
+        "Berapa biaya penelitian untuk skripsi?",
+        "Ada fee buat wawancara tugas kuliah?",
+        "Bisa survei atau ambil data penelitian?",
+        "Izin riset dan wawancara untuk project kuliah"
+      ],
+      "respons": "Halo Kak! KD Garden sangat terbuka untuk mahasiswa yang ingin melakukan penelitian, observasi, atau wawancara project perkuliahan. Terdapat biaya (fee) sebesar Rp 50.000 untuk satu kali sesi wawancara. Untuk mengatur jadwal kedatangan dan wawancara, silakan hubungi admin di WA +6288215085888 ya! 🎓🍇"
+    }
+  ]
+}
