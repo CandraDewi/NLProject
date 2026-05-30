@@ -28,6 +28,19 @@ env/
 node_modules/
 npm-debug.log
 yarn-error.log
+
+# Media & Assets
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.mp3
+frontend/src/assets/gallery/
+
+# Database
+*.sqlite3
+chroma_db/
 dist/
 build/
 
